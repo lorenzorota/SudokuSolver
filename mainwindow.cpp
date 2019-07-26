@@ -22,6 +22,19 @@ MainWindow::MainWindow(QWidget *parent) :
     // Fix tab ordering
     for (int i = 0; i < 80; i++)
         setTabOrder(cellRef[i]->getCell(), cellRef[i + 1]->getCell());
+
+    // Apply stylesheet to each cell
+    for (int i = 0; i < 81; i++)
+    {
+        cellRef[i]->setStyleSheet(":enabled:hover { background-color: rgb(153, 153, 153); }"
+                                  ":enabled { border: 1px solid gray; }"
+                                  ":enabled {background-color: rgb(204, 204, 204); }"
+                                  ":enabled { font: 24pt \".SF NS Text\"; }"
+                                  ":enabled:focus { border: 0px; }"
+                                  ":enabled:focus { background-color: rgb(49, 79, 120); }"
+                                  ":disabled { border: 1px solid gray; }"
+                                  ":disabled { background-color: rgb(153, 153, 153); }");
+    }
 }
 
 MainWindow::~MainWindow()
@@ -47,9 +60,9 @@ void MainWindow::on_solveButton_clicked()
         {
             if ((*board)[i] != capturedValues[i])
             {
-                cellRef[i]->getCell()->setStyleSheet("color: green");
+                cellRef[i]->getCell()->setStyleSheet("color: green;");
                 cellRef[i]->getCell()->setPlainText(QString::number((*board)[i]));
-                cellRef[i]->getCell()->setAlignment(Qt::AlignCenter); // I might wanna change this
+                cellRef[i]->getCell()->setAlignment(Qt::AlignCenter);
             }
         }
 

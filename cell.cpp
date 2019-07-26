@@ -12,6 +12,7 @@ Cell::Cell(QWidget *parent) : QWidget(parent)
     cell = new QTextEdit();
 
     // Configuration
+    cell->setFrameShape(QFrame::NoFrame);
     cell->setCursorWidth(0);
     cell->setAlignment(Qt::AlignCenter);
     cell->setStyleSheet("color: black");

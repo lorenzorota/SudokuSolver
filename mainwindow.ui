@@ -23,2056 +23,872 @@
      <verstretch>0</verstretch>
     </sizepolicy>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
     <item>
-     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0">
-      <property name="spacing">
-       <number>1</number>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: black;</string>
       </property>
-      <item row="3" column="0">
-       <widget class="Line" name="line_3">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <layout class="QGridLayout" name="block_2">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_14" native="true">
-          <property name="enabled">
-           <bool>true</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_15" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_24" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_23" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_05" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_13" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_04" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_25" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_03" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="1" column="4">
-       <widget class="Line" name="line_6">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <layout class="QGridLayout" name="block_1">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_11" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_10" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_00" native="true">
-          <property name="enabled">
-           <bool>true</bool>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_20" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_01" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_22" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_21" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_02" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_12" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="2" column="3">
-       <widget class="Line" name="line_9">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="0">
-       <layout class="QGridLayout" name="block_7">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_71" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_72" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_81" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_80" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_60" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_62" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_70" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_82" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_61" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="4" column="1">
-       <widget class="Line" name="line_11">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="2">
-       <layout class="QGridLayout" name="block_5">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_44" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_45" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_54" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_53" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_33" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_35" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_43" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_55" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_34" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="2" column="1">
-       <widget class="Line" name="line_10">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="3">
-       <widget class="Line" name="line_12">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="4">
-       <layout class="QGridLayout" name="block_3">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_17" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_18" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_27" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_26" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_06" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_08" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_16" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_28" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_07" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="3" column="2">
-       <widget class="Line" name="line_4">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="3">
-       <widget class="Line" name="line_2">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="Line" name="line_7">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="4">
-       <widget class="Line" name="line_5">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="Line" name="line_8">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);	</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="2">
-       <layout class="QGridLayout" name="block_8">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_74" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_84" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_83" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_65" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_73" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_64" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_75" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_85" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_63" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="4" column="4">
-       <layout class="QGridLayout" name="block_9">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_77" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_78" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_87" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_86" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_66" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_68" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_76" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_88" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_67" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="0" column="1">
-       <widget class="Line" name="line">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Plain</enum>
-        </property>
-        <property name="lineWidth">
-         <number>2</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <layout class="QGridLayout" name="block_4">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_41" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_42" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_51" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_50" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_30" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_32" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_40" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_52" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_31" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="2" column="4">
-       <layout class="QGridLayout" name="block_6">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item row="1" column="1">
-         <widget class="Cell" name="cell_47" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="Cell" name="cell_48" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="Cell" name="cell_57" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="Cell" name="cell_56" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="Cell" name="cell_36" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="Cell" name="cell_38" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="Cell" name="cell_58" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="Cell" name="cell_37" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="Cell" name="cell_46" native="true">
-          <property name="styleSheet">
-           <string notr="true">:enabled :hover {
-	background-color: rgb(153, 153, 153);
-}
-
-:enabled {
-	background-color: rgb(204, 204, 204);
-	font: 24pt &quot;.SF NS Text&quot;;
-}
-
-:enabled :focus {
-	background-color: rgb(49, 79, 120);
-}
-
-:disabled {
-	background-color: rgb(153, 153, 153);
-}</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>3</number>
+       </property>
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <property name="rightMargin">
+        <number>3</number>
+       </property>
+       <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="3" column="2">
+          <widget class="Line" name="line_4">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <layout class="QGridLayout" name="block_8">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_74" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_84" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_83" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_65" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_73" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_64" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_75" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_85" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_63" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="4">
+          <widget class="Line" name="line_5">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <layout class="QGridLayout" name="block_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_17" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_18" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_27" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_26" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_06" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_08" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_16" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_28" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_07" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="1">
+          <widget class="Line" name="line">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <layout class="QGridLayout" name="block_4">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_41" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_42" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_51" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_50" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_30" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_32" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_40" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_52" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_31" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="3">
+          <widget class="Line" name="line_9">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <layout class="QGridLayout" name="block_5">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_44" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_45" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_54" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_53" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_33" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_35" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_43" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_55" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_34" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="4">
+          <layout class="QGridLayout" name="block_9">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_77" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_78" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_87" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_86" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_66" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_68" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_76" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_88" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_67" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <widget class="Line" name="line_8">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);	</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="Line" name="line_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="Line" name="line_10">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="Line" name="line_11">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="4">
+          <widget class="Line" name="line_6">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="block_1">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_11" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_10" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_00" native="true">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_20" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_01" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_22" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_21" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_02" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_12" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QGridLayout" name="block_7">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_71" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_72" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_81" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_80" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_60" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_62" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_70" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_82" native="true">
+             <property name="styleSheet">
+              <string notr="true">
+</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_61" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="2">
+          <layout class="QGridLayout" name="block_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_14" native="true">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_15" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_24" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_23" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_05" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_13" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_04" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_25" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_03" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="2">
+          <widget class="Line" name="line_7">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="Line" name="line_3">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="Line" name="line_12">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="4">
+          <layout class="QGridLayout" name="block_6">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="Cell" name="cell_47" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="Cell" name="cell_48" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="Cell" name="cell_57" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="Cell" name="cell_56" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="Cell" name="cell_36" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="Cell" name="cell_38" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="Cell" name="cell_58" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="Cell" name="cell_37" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="Cell" name="cell_46" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0,0,0">

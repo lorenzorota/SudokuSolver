@@ -17,7 +17,6 @@ public slots:
 protected:
     QTextEdit *cell;
     virtual bool eventFilter(QObject*, QEvent*);
-    //virtual void resizeEvent(QResizeEvent*);
 };
 
 #endif // CELL_H

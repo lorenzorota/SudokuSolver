@@ -21,7 +21,6 @@ public:
 private slots:
     void on_solveButton_clicked();
     void on_editButton_clicked();
-
     void on_resetButton_clicked();
 
 private:
