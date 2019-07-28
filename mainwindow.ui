@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>427</width>
-    <height>509</height>
+    <width>479</width>
+    <height>507</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,7 +30,10 @@
     <item>
      <widget class="QFrame" name="frame">
       <property name="styleSheet">
-       <string notr="true">background-color: black;</string>
+       <string notr="true">QFrame#frame {
+background-color: black;
+border-radius: 3px;
+}</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -1004,7 +1007,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>427</width>
+     <width>479</width>
      <height>22</height>
     </rect>
    </property>

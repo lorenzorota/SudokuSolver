@@ -14,6 +14,7 @@ Cell::Cell(QWidget *parent) : QWidget(parent)
     // Configuration
     cell->setFrameShape(QFrame::NoFrame);
     cell->setCursorWidth(0);
+    cell->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     cell->setAlignment(Qt::AlignCenter);
     cell->setStyleSheet("color: black");
     cell->installEventFilter(this);
@@ -22,7 +23,13 @@ Cell::Cell(QWidget *parent) : QWidget(parent)
     cell->setTabChangesFocus(true);
     setFocusPolicy(Qt::TabFocus);
     setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
-    setMinimumSize(50, 50);
+
+    /* Adjust minimum cell size based on default Font */
+    QFont font = QFont(".SF NS Text", 24, QFont::Normal);
+    QFontMetrics fontMetrics = QFontMetrics(font);
+    QSize textSize = fontMetrics.size(0, cell->toPlainText());
+    int textSizeVal = textSize.height() + 10;
+    setMinimumSize(textSizeVal, textSizeVal);
 
     container->addWidget(cell);
     this->setLayout(container);
